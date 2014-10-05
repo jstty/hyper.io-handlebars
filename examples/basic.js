@@ -1,17 +1,5 @@
-hyper.io-handlebars
-==========================
-
-Handlebars Template Middleware for Hyper.io
-
-## NPM
-```sh
-$ npm install hyper.io-handlebars
-```
-
-## Use
-```javascript
 var hyper      = require('hyper.io');
-var handlebars = require('hyper.io-handlebars');
+var handlebars = require('../index.js');
 
 // add Handlebars, this is optional,
 // hyper.io will auto try to require the 'handlebars'
@@ -36,5 +24,3 @@ hyper().start({
         }
     ]
 });
-
-```
